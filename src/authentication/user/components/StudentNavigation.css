@@ -1,0 +1,10 @@
+
+.student-navigation{
+    /* background: blue; */
+    width: 50%;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    /* background: red; */
+    padding-left: 150px;
+}
