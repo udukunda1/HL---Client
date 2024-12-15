@@ -9,10 +9,10 @@ import size from '../../../image/sidedrawer/Font Style Formatting.svg';
 import language from '../../../image/sidedrawer/Google Translate.svg';
 import privacy from '../../../image/sidedrawer/Privacy.svg';
 import terms from '../../../image/sidedrawer/Terms and Conditions.svg';
-import sun from '../../../image/Sun.svg';
+// import sun from '../../../image/Sun.svg';
 import DarkMode from "../UI/DarkMode/DarkMode";
 import Slide from '../slider/Slide';
-import SlideContrast from "../slider/SlideContrast";
+// import SlideContrast from "../slider/SlideContrast";
 import LanguageSelector from "../LanguageSelector/LanguageSelector";
 import LanguageContext from "../../context/LanguageContext";
 
@@ -39,7 +39,7 @@ const RightDrawer = () => {
     <h3 style={{fontSize: '17px'}}> <img src={settin} alt="health link settings" />{translations.settings}</h3>
     <h3><img src={moon} alt="settin" />{translations.darkMode} <DarkMode /></h3>
     <h3><img src={size} alt="settin" />{translations.fontSize} <Slide /></h3>
-    <h3><img src={sun} alt="settin" />{translations.brightness} <SlideContrast /></h3>
+    {/* <h3><img src={sun} alt="settin" />{translations.brightness} <SlideContrast /></h3> */}
     <h3><img src={language} alt="settin" />{translations.language} <LanguageSelector /></h3>
     <h3><img src={privacy} alt="settin" />{translations.footer.privacyPolicy}</h3>
     <h3><img src={terms} alt="settin" />{translations.footer.termsAndConditions}</h3>
